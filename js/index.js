@@ -1,0 +1,9 @@
+$(function(){
+	$(".bundle").mouseover(function(){
+		$(this).addClass('abc');
+		$(this).siblings().addClass('qqd');
+	}).mouseout(function(){
+		$(this).removeClass('abc');
+		$(this).siblings().removeClass('qqd');
+	})
+})

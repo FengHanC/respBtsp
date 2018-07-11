@@ -1,0 +1,128 @@
+html body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+/*
+ * header部分样式
+ */
+.header-navbar{
+	z-index: 500;
+	width: 100%;
+	background: linear-gradient(60deg, #fe4096, #f7704e);
+}
+.navbar-default{
+	background-color: transparent;
+	border: hidden;
+}
+.navbar-default .navbar-brand {
+    color: #50285f;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-default .navbar-toggle{
+	border: 1px solid #50285f;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: tomato;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #555;
+    background-color: #F7704E;
+}
+.btn-default{
+	background-color: transparent;
+}
+.nav.navbar-nav > li > a{
+	color: white;
+}
+/*
+ *中间内容区 
+ */
+.desc{
+	margin: 0px auto;
+	text-align: center;
+	color: #50285F;
+}
+.desc h1{
+	font-size: 50px;
+}
+.form-box{
+	width: 100%;
+	height: auto;
+	margin: 50px 0;
+	padding: 20px;
+	border: 2px solid #50285F;
+	background-color: white;
+	box-shadow: 0 11px 22px 0 rgba(92,44,115,.3);
+}
+input {
+    width: 100% !important;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.form-btn{
+	width: 100%;
+}
+.big-title {
+    font-size: 68px;
+    font-weight: 900;
+    color: #50285f !important;
+    line-height: 1.15;
+}
+.bundle-container{
+	min-height: 440px;
+}
+.bundle{
+	text-align: center;
+	background-color: white;
+}
+.bundle .top hr {
+    border-top: 2px solid #ffbd2b;
+    width: 140px;
+}
+.bundle:hover .btn-default{
+	color: white;
+	background-color: #50285F;
+}
+.bundle .bundle-wrapper {
+    padding: 10px;
+    background: #fff;
+    transition: transform .3s ease-in-out;
+}
+.abc{
+	z-index: 999;
+	border: 2px solid #50285F;
+	box-shadow: 0 11px 22px 0 rgba(92,44,115,.3);
+	transform: scale(1.1);
+	transition-duration: .5s;
+	border-radius: 4px;
+}
+.qqd{
+	opacity: .7;
+}
+.list{
+	text-align: center;
+	margin: 20px 0;
+}
+.list img{
+	padding: 10px;
+}
+.footer-end{
+	padding: 20px 0 20px;
+	background: linear-gradient(60deg, #fe4096, #f7704e);
+}
+.heading7{
+	font-size: 20px;
+}
+.footer-ul{
+	list-style-type: none;
+}
+.footer-ul a{
+	color: #555555;
+}
+.footer-ul a:hover{
+	text-decoration: none;
+	color: white;
+}
